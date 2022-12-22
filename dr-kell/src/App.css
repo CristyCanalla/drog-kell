@@ -1,0 +1,91 @@
+.app {
+  user-select: none;
+}
+
+.cardModulo {
+  margin-top: 1rem!important;
+}
+
+.navbar a {
+  color: #fff
+}
+
+.navbar a:hover {
+  color: #ddd
+}
+
+.inputUppercase {
+  text-transform: uppercase;
+}
+
+.pedidoFarmacia-header {
+  background-color: #b3bb9c;
+}
+
+.pedidoFarmacia-footer {
+  background-color: #f5fbe4;
+}
+
+.card-body-box-sizing {
+  box-sizing: border-box;
+}
+
+.moduloCssPar {
+  background-color: #defff3;
+}
+.rowNavbar{
+  width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 7em;
+  width: 7em;
+  outline: black;
+  background-size: 100%, 100%;
+ /* border-radius: 50%;
+  border: 1px solid black;*/
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '→';
+  font-size: 6em;
+  color:  #13B1A0;
+}
+
+.carousel-control-prev-icon:after {
+  content: '←';
+  font-size: 6em;
+  color: #13B1A0;
+}
+.carousel-captio-h5{
+  color: hsl(0, 0%, 0%);
+}
+.ultimaActualizacion{
+  font-size: 0.8rem;
+}
+.collapseShow{
+  display: block !important;
+}
+.card-body {
+  padding: 0rem;
+}
+.textTable{
+   margin-bottom: 0rem;
+}
+.Alert_block{
+  display: block;
+}
+.Alert_none{
+  display: none;
+}
+.accordion-button-historial {
+  padding: 0.1rem 0.1rem;
+}
+
+@media screen and (max-width: 400px) {
+  .textTable {
+    font-size: 0.6em;
+  }
+}
